@@ -1,0 +1,127 @@
+main {
+  flex: 1;
+}
+
+main .google-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+main .google-logo {
+  height: 92px;
+}
+
+.search-container {
+  margin-top: 2rem;
+  width: 548px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px 2px rgb(0, 0, 0, 0.15);
+  border: 1px solid #dfe1e5;
+  overflow: hidden;
+  /* padding: 0.7rem; */
+}
+
+.search-container:focus-within {
+  border: solid 1px transparent;
+}
+
+.search-icon-container.left {
+  padding: 0.7rem;
+  display: flex;
+}
+.search-icon-container.left svg path {
+  fill: #9aa0a6 !important;
+}
+
+.search-icon-container.right {
+  padding: 0.7rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.search-icon-container.right svg path {
+  fill: #474747 !important;
+}
+
+.search-textarea {
+  padding-top: 11px;
+  border: none !important;
+  outline: none;
+  resize: none;
+  display: inline-flex;
+  flex: 1;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.clear-textarea-container {
+  display: flex;
+}
+
+.divider {
+  border-right: solid 1px #dadce0;
+  height: 24px;
+}
+
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon-container.left svg {
+  height: 20px;
+  width: 20px;
+}
+
+.search-icon-container.right svg {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 2rem;
+  gap: 4px;
+  margin-bottom: 2rem;
+}
+
+.btn-container button {
+  background-color: #f8f9fa;
+  border: solid #f8f9fa 1px;
+  color: #3c4043;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-container button:hover {
+  border: solid 1px #dadce0;
+}
+
+#clear-btn {
+  display: flex;
+}
+
+@media screen and (max-height: 545px) {
+  main .google-search-container {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-container {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .search-container {
+    width: 80% !important;
+  }
+}

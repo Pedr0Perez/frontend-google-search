@@ -1,0 +1,32 @@
+footer {
+  background-color: #f2f2f2;
+}
+
+.footer-container {
+  padding: 15px 30px;
+}
+
+.footer-container.top {
+  border-bottom: solid 1px #dadce0;
+}
+
+.footer-container.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-a-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.91rem;
+}
+
+.footer-a:hover {
+  text-decoration: underline !important;
+}

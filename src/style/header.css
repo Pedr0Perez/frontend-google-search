@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .items-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem;
+}
+
+header .item-container {
+  font-size: 0.85rem;
+}
+
+header .item-container a {
+  text-decoration: none;
+}
+
+header .item-container a:hover {
+  text-decoration: underline;
+}
+
+header .item-container .menu {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+header .item-container .menu:hover {
+  background-color: rgba(60, 64, 67, 0.15);
+}
+
+header .item-container .menu svg {
+  height: 24px;
+  width: 24px;
+}
+
+header .item-container .menu path {
+  fill: #5f6368;
+}
+
+header .user-acc-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+header .user-acc-svg {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+
+header .userAcc {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 32px;
+  width: 32px;
+}
+
+header .userAcc img {
+  height: 100%;
+  width: 100%;
+}
