@@ -1,7 +1,27 @@
-Recriação da interface da página inicial do Google usando HTML, CSS e TypeScript puro, com Vite como ferramenta de build.
-Como rodar a aplicação: Ceritifque-se de ter o node instalado, então, baixe o projeto e rode os seguintes comandos nesta ordem: npm i | npm run dev 
+# Página Inicial do Google Search
+Recriação da interface da página inicial do Google.
 
-O front-end está disponível em: https://frontend-google-search-simulator.onrender.com
+## 📈 Tecnologias Utilizadas
+- TypeScript
+- CSS
+- HTML
+- Vite
+
+## 🔧 Instalação
+- Antes de rodar a aplicação, cerifique-se de ter o NodeJS instalado em sua máquina: https://nodejs.org/pt/download.
+- Clone o repositório
+  ```
+  git clone https://github.com/Pedr0Perez/frontend-google-search
+  cd frontend-google-search
+  ```
+- Instale as dependências
+  ```
+  npm i
+  ```  
+- Rode a aplicação
+  ```
+  npm run dev
+  ```
 
 ## 💻 Modo Desktop
 !['Screenshort da Aplicação em funcionamento'](./print.png)
